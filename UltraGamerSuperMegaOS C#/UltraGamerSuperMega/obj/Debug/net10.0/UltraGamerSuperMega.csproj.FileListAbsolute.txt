@@ -1,0 +1,14 @@
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\bin\Debug\net10.0\UltraGamerSuperMega.exe
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\bin\Debug\net10.0\UltraGamerSuperMega.deps.json
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\bin\Debug\net10.0\UltraGamerSuperMega.runtimeconfig.json
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\bin\Debug\net10.0\UltraGamerSuperMega.dll
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\bin\Debug\net10.0\UltraGamerSuperMega.pdb
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\UltraGamerSuperMega.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\UltraGamerSuperMega.AssemblyInfoInputs.cache
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\UltraGamerSuperMega.AssemblyInfo.cs
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\UltraGamerSuperMega.csproj.CoreCompileInputs.cache
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\UltraGamerSuperMega.dll
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\refint\UltraGamerSuperMega.dll
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\UltraGamerSuperMega.pdb
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\UltraGamerSuperMega.genruntimeconfig.cache
+C:\Users\danun\source\repos\UltraGamerSuperMega\UltraGamerSuperMega\obj\Debug\net10.0\ref\UltraGamerSuperMega.dll
