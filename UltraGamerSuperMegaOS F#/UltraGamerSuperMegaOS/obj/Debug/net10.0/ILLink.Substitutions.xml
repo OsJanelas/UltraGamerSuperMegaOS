@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="UltraGamerSuperMegaOS">
+    <resource name="FSharpSignatureData.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpOptimizationData.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.UltraGamerSuperMegaOS" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.UltraGamerSuperMegaOS" action="remove"></resource>
+  </assembly>
+</linker>

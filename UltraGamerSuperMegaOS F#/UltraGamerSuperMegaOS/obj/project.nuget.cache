@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZYq5f7evMDo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danun\\source\\repos\\UltraGamerSuperMegaOS\\UltraGamerSuperMegaOS\\UltraGamerSuperMegaOS.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danun\\.nuget\\packages\\fsharp.core\\10.0.101\\fsharp.core.10.0.101.nupkg.sha512"
+  ],
+  "logs": []
+}
