@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ULTRAGAMERSUPERMEGAOS - XML EDITION</title>
+    <style>
+        /* CSS AGRESSIVO */
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: "Comic Sans MS", cursive; /* A rainha da feiura */
+            text-align: center;
+            border: 20px ridge #ff00ff; /* Borda rosa 3D */
+            height: 90vh;
+            overflow: hidden;
+        }
+
+        #os-header {
+            background: linear-gradient(to right, red, yellow, green, blue, magenta);
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 20px;
+            text-shadow: 2px 2px white;
+            animation: move-bg 2s infinite linear;
+        }
+
+        @keyframes move-bg {
+            0% { filter: hue-rotate(0deg); }
+            100% { filter: hue-rotate(360deg); }
+        }
+
+        .panel {
+            background: #000080; /* Azul Windows antigo */
+            border: 5px dashed yellow;
+            margin: 20px;
+            padding: 15px;
+            box-shadow: 10px 10px 0px red;
+        }
+
+        .data-item {
+            color: #ff00ff;
+            font-size: 1.5em;
+            background: white;
+            margin-bottom: 5px;
+        }
+
+        button {
+            background: lime;
+            font-size: 25px;
+            font-family: "Impact";
+            cursor: pointer;
+            border: 5px outset white;
+        }
+
+        button:active { border-style: inset; }
+
+        .blink { animation: blinker 0.2s infinite; }
+        @keyframes blinker { 50% { opacity: 0; } }
+
+    </style>
+</head>
+<body>
+
+<div id="os-header">!!! ULTRAGAMERSUPERMEGAOS: XML DASHBOARD !!!</div>
+
+<div class="panel">
+    <h2 class="blink">STATUS DO HARDWARE (VIA XML)</h2>
+    <div id="hardware-info">Carregando dados binários...</div>
+</div>
+
+<button onclick="ativarTurbo()">TURBO FPS 9000%</button>
+
+<script>
+    // JAVASCRIPT PARA LER XML E CONTROLAR A FEIURA
+    var xmlData = `
+    <ultragameros>
+        <hardware>
+            <cpu>Intel Core i999 Quantum</cpu>
+            <gpu>RTX 9090 Ti Infinite RGB</gpu>
+            <ram>1024 Petabytes</ram>
+        </hardware>
+    </ultragameros>`;
+
+    function loadSystem() {
+        // Simula a leitura de um arquivo XML
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(xmlData, "text/xml");
+        
+        var cpu = xmlDoc.getElementsByTagName("cpu")[0].childNodes[0].nodeValue;
+        var gpu = xmlDoc.getElementsByTagName("gpu")[0].childNodes[0].nodeValue;
+        var ram = xmlDoc.getElementsByTagName("ram")[0].childNodes[0].nodeValue;
+
+        var infoDiv = document.getElementById("hardware-info");
+        infoDiv.innerHTML = 
+            "<div class='data-item'>PROCESSADOR: " + cpu + "</div>" +
+            "<div class='data-item'>PLACA DE VIDEO: " + gpu + "</div>" +
+            "<div class='data-item'>MEMORIA: " + ram + "</div>";
+    }
+
+    function ativarTurbo() {
+        alert("ALERTA: VENTILADORES EM 100.000 RPM!");
+        document.body.style.backgroundColor = "red";
+        setTimeout(function() { 
+            document.body.style.backgroundColor = "black";
+            alert("VOCE GANHOU 500 FPS!");
+        }, 500);
+    }
+
+    // Inicializa
+    window.onload = loadSystem;
+</script>
+
+</body>
+</html>
